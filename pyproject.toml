@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-chess"
+version = "0.1.0"
+description = ""
+authors = ["Markus Liebelt <markus.liebelt@iteratec.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-chess = "^1.999"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
